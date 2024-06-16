@@ -96,31 +96,33 @@ function App() {
             <SkeletonText />
           </Stack>
         ) : (
-          <Flex align="center" direction="row">
-            <Image
-              src={image}
-              boxShadow="lg"
-              width={"400px"}
-              alt="Generated"
-              borderRadius="md"
-              className="fade-in"
-              marginTop={"30px"}
-              marginBottom={"30px"}
-            />
-            <Button
-              onClick={downloadImage}
-              bgGradient="linear(to-r, blue.300, purple.400)"
-              borderColor="linear(to-r, blue.800, purple.800)"
-              color="white"
-              className="button-animate"
-              marginLeft="10px"
-              _hover={{
-                bgGradient: "linear(to-r, blue.400, purple.500)",
-              }}
-            >
-              ⬇
-            </Button>
-          </Flex>
+          image && (
+            <Flex align="center" direction="row">
+              <Image
+                src={image}
+                boxShadow="lg"
+                width={"400px"}
+                alt="Generated"
+                borderRadius="md"
+                className="fade-in"
+                marginTop={"30px"}
+                marginBottom={"30px"}
+              />
+              <Button
+                onClick={downloadImage}
+                bgGradient="linear(to-r, blue.300, purple.400)"
+                borderColor="linear(to-r, blue.800, purple.800)"
+                color="white"
+                className="button-animate"
+                marginLeft="10px"
+                _hover={{
+                  bgGradient: "linear(to-r, blue.400, purple.500)",
+                }}
+              >
+                ⬇
+              </Button>
+            </Flex>
+          )
         )}
       </Container>
     </ChakraProvider>
