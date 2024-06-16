@@ -1,140 +1,70 @@
+# Getting Started with Create React App
 
-# AI Image Generator Frontend
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This React application provides a user interface for generating images based on text prompts using the Stable Diffusion model.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🚀 Features
+### `npm start`
 
-- **Generate Images from Text Prompts:** Input a text prompt and receive a generated image.
-- **Download Generated Images:** Easily download the generated images.
-- **Responsive Design:** Built with Chakra UI for a responsive and visually appealing interface.
-- **Loading Indicators:** Display loading indicators while images are being generated.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 💻 Installation
+### `npm test`
 
-To get started with this project, follow these steps:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/KushanManahara/-AI-Image-Generator-with-Stable-Diffusion.git
-   ```
+### `npm run build`
 
-2. **Navigate to the project directory:**
-   ```sh
-   cd AI-Image-Generator-with-Stable-Diffusion/FrontEnd/client-app
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **Install dependencies:**
-   ```sh
-   npm install
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. **Start the development server:**
-   ```sh
-   npm start
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🔑 Environment Variables
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Make sure the backend service is running on `http://127.0.0.1:8000`. Update the URL in the frontend code if necessary.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 🚀 Usage
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. **Start the React application:**
-   ```sh
-   npm start
-   ```
+## Learn More
 
-2. **Generate an image:**
-   - Enter a text prompt in the input field.
-   - Click the "Generate" button.
-   - Wait for the image to be generated and displayed.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. **Download the generated image:**
-   - Click the download button next to the generated image to save it to your device.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-## 📚 Lessons Learned
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Throughout the development of this project, we have learned:
+### Analyzing the Bundle Size
 
-- **Integrating React with FastAPI:** Creating a seamless connection between frontend and backend.
-- **Chakra UI:** Utilizing Chakra UI components for building a responsive interface.
-- **Handling Asynchronous Requests:** Managing loading states and handling API responses effectively.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## 💡 Skills
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Working on this project has helped develop the following skills:
+### Advanced Configuration
 
-- **React Development:** Building and styling components in React.
-- **API Integration:** Connecting frontend applications with backend services.
-- **User Experience Design:** Implementing smooth loading indicators and responsive design.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
+### Deployment
 
-## 🤝 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-We welcome contributions to improve this project! To contribute, please follow these steps:
+### `npm run build` fails to minify
 
-1. **Fork the repository:**
-   Click the "Fork" button at the top right of this page to create a copy of this repository in your GitHub account.
-
-2. **Clone your forked repository:**
-   ```sh
-   git clone https://github.com/yourusername/ai-image-generator-frontend.git
-   ```
-
-3. **Create a new branch:**
-   ```sh
-   git checkout -b feature-branch
-   ```
-
-4. **Make your changes:**
-   Implement your changes and commit them with a clear and descriptive message.
-
-5. **Push to the branch:**
-   ```sh
-   git push origin feature-branch
-   ```
-
-6. **Open a pull request:**
-   Navigate to the original repository and open a pull request with a detailed description of your changes.
-
-Thank you for contributing!
-
----
-## 🧑‍💼 About Me
-### Kushan Manahara
-
-I'm a final year undergraduate student pursuing Computer Engineering at the University of Peradeniya. My passion lies in research, AI development, and automation. I thrive on exploring new technologies and pushing the boundaries of what's possible in the realm of artificial intelligence.
-
-Whether it's diving into the intricacies of machine learning algorithms or crafting seamless user experiences through full stack development, I'm driven by a relentless curiosity and a desire to make meaningful contributions to the field of technology.
-
-Feel free to reach out if you'd like to collaborate on exciting projects or discuss ideas at the intersection of technology and innovation.
-
-Connect with me on [LinkedIn]([Your_LinkedIn_Profile_URL](https://www.linkedin.com/in/kushan-manahara/))
-
----
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kushan-portfollio.vercel.app/)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kushan-manahara/)
-
----
-## ✍️ Authors
-- [@KushanManahara](https://github.com/KushanManahara/)
-
----
-## 🎖️ Badges
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

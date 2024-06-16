@@ -31,6 +31,24 @@ class ImageResponse(BaseModel):
 
 @app.get("/", response_model=ImageResponse)
 def query(prompt: str):
+    """
+    This function is responsible for handling the API request and returning the generated image.
+
+    Parameters:
+    prompt (str): The text prompt that will be used to generate the image.
+
+    Returns:
+    dict: A dictionary containing the base64-encoded image string.
+
+    The function performs the following steps:
+    1. Prints the received prompt.
+    2. Prepares the payload with the prompt.
+    3. Sends a POST request to the Hugging Face API with the payload.
+    4. Opens the received image data using the PIL library.
+    5. Saves the image data to a buffer in PNG format.
+    6. Encodes the buffer data to base64.
+    7. Returns a dictionary containing the base64-encoded image string.
+    """
     print(prompt)
     payload = {"inputs": prompt}
     response = requests.post(API_URL, headers=headers, json=payload)
